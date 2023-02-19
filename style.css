@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(213, 225, 239);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* card */
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+}
