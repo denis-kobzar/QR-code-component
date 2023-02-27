@@ -31,19 +31,21 @@ body {
     width: 320px;
     height: 500px;
     background-color: #fff;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 15px;
     box-shadow: 0 10px 15px #a4a4a494;
 }
 
 .card__inner {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .card__img {
-    border-radius: 15px;
+    border-radius: 10px;
     width: 290px;
     height: 290px;
 }
@@ -53,22 +55,29 @@ body {
 }
 
 .card p {
-    margin-top: 20px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card__title {
+    padding-bottom: 20px;
     width: 90%;
     margin: 0 auto;
     color: rgb(27, 36, 55);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 21px;
 }
 
 .card__descr {
     width: 90%;
     margin: 0 auto;
     color: rgb(123, 124, 130);
-    font-size: 16px;
+    font-size: 15px;
 }
